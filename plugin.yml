@@ -1,0 +1,17 @@
+name: RedCollectors
+version: R1.8
+author: Sunny#4704
+website: www.paypal.me/SunnyYT
+database: false
+depend: [Vault, HolographicDisplays]
+softdepend: [Factions, HeadDatabase, ShopGUIPlus, SuperiorSkyblock2, ProtocolLib, WildStacker, WildTools]
+main: warfaremc.us.chunkcollectors.sunnyt.CC
+commands:
+  collector:
+    description: The main command for the plugin
+    permission: redcollectors.give
+permissions:
+  redcollectors.give:
+    description: Permission to give a player a chunk collector
+  redcollectors.shiftclick:
+    description: Allows you to shiftclick a collector and sell all
